@@ -1,0 +1,23 @@
+@import url(/css/header.css);
+@import url(/css/main.css);
+
+:root {
+    --cor-principal: white;
+    --cor-secundaria: green;
+    --cor-terciaria: #964b00;
+    --preto: black;
+
+    --font-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #E4DFDC;
+    font-family: var(--font-principal);
+}
